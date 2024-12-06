@@ -1,4 +1,4 @@
-const OpenMessageBox= (title='User message', body='Message box') => {
+const OpenMessageBox = (title='User message', body='Message box') =>{
     let dialog = document.createElement('dialog');
 
     dialog.appendChild(Object.assign(document.createElement("h3"),{innerHTML : title}));
@@ -14,4 +14,5 @@ const OpenMessageBox= (title='User message', body='Message box') => {
     dialog.appendChild(form);
     document.body.appendChild(dialog);
     dialog.showModal();
-}
+};
+export default OpenMessageBox;
