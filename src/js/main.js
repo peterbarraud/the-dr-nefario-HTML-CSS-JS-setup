@@ -1,8 +1,12 @@
 // Import our custom CSS
-import '../scss/styles.scss'
-// import '../js/messagebox'
-
+import '../scss/styles.scss';
+import OpenMessageBox from './messagebox';
 const modalDialog = document.querySelector('#modal-dialog');
+
+window.onload = (event) => {
+    console.log("page is fully loaded");
+    
+  };
 
 
 
